@@ -1,0 +1,31 @@
+<html>
+<head>
+	 <title>Demo: Mirador viewer</title>
+</head>
+<!-- By default uses Roboto font. Be sure to load this or change the font -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+<!-- Container element of Mirador whose id should be passed to the instantiating call as "id" -->
+<div id="my-mirador"/>
+
+<script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+<script type="text/javascript">
+var mirador = Mirador.viewer({
+  "id": "my-mirador",
+  "manifests": {
+    "http://127.0.0.1:8887/base_manifest.json": {
+      "provider": "KMSKA"
+    },
+    "http://127.0.0.1:8887/manifest_layers_v2.json": {
+      "provider": "IIIF Fridays"
+    }
+  },
+  "windows": [
+    {
+      "loadedManifest": "http://127.0.0.1:8887/base_manifest.json",
+      "canvasIndex": 0,
+      "thumbnailNavigationPosition": 'far-bottom'
+    }
+  ]
+});
+</script>
+</html>
