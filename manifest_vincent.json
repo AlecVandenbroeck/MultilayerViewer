@@ -47,17 +47,6 @@
 				}
 			]
 		}
-      ],
-      "seeAlso": [
-      	{
-      		"id": "https://raw.githubusercontent.com/AlecVandenbroeck/MultilayerViewer/main/output.xml",
-      		"type": "Dataset",
-      		"profile": "http://www.loc.gov/standards/alto/v3/alto.xsd",
-      		"label": {
-      			"none": ["METS-ALTO XML"],
-      			"format": ["text/xml"]
-      		}
-      	}
       ]
     }
   ]
