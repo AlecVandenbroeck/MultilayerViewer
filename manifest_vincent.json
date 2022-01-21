@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "http://127.0.0.1:8887/manifest_vincent.json",
+  "id": "https://raw.githubusercontent.com/AlecVandenbroeck/MultilayerViewer/main/manifest_vincent.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -16,13 +16,17 @@
       "type": "Canvas",
       "height": 2695,
       "width": 3123,
-      "label": "TEST",
+      "label": {
+      	"en": ["TEST"]
+      },
       "items": [
         {
           "id": "http://127.0.0.1:8887/annotation/p0001-image",
           "type": "Annotation",
           "motivation": "painting",
-          "label": "Test afbeelding",
+          "label": {
+          	"en": ["Test afbeelding"]
+          },
           "body": {
             "id": "https://adore.ugent.be/IIIF/images/archive.ugent.be%3A9B7E1F14-5141-11EC-BB1E-55C200E43F28%3ADS.935",
             "type": "Image",
@@ -45,7 +49,7 @@
       		"profile": "http://www.loc.gov/standards/alto/v3/alto.xsd",
       		"label": {
       			"none": ["METS-ALTO XML"],
-      			"format": "text/xml"
+      			"format": ["text/xml"]
       		}
       	}
       ]
