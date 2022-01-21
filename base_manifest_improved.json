@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "http://127.0.0.1:8887/base_manifest.json",
+  "id": "https://raw.githubusercontent.com/AlecVandenbroeck/MultilayerViewer/main/base_manifest_improved.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -16,7 +16,11 @@
       "type": "Canvas",
       "height": 6271,
       "width": 4876,
-      "label": "Portret van Rubens",
+      "label": {
+	    "en": [
+	      "Portret van Rubens"
+	    ]
+	  },
       "items": [
         {
           "id": "http://127.0.0.1:8887/page/p1/1",
