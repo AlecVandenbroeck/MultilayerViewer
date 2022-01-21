@@ -42,6 +42,13 @@
 				  "label": {
 				  	"en": ["Test afbeelding"]
 				  },
+				  "body": {
+					"id": "https://adore.ugent.be/IIIF/images/archive.ugent.be%3A9B7E1F14-5141-11EC-BB1E-55C200E43F28%3ADS.935/full/full/0/default.jpg",
+				    	"type": "Image",
+				    	"format": "image/png",
+				   	"height": 2695,
+				    	"width": 3123
+				  },
 				  "target": "http://127.0.0.1:8887/canvas/p1"
 				}
 		]
