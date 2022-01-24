@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://raw.githubusercontent.com/AlecVandenbroeck/MultilayerViewer/main/manifest_vincent.json",
+  "id": "https://raw.githubusercontent.com/AlecVandenbroeck/MultilayerViewer/main/manifest_vincent_2.json",
   "type": "Manifest",
   "label": {
     "en": [
